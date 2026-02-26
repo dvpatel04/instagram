@@ -188,7 +188,7 @@ nav{
     margin:20px 20px ;
 }
 .overlay3 p{
-    font-size: 10px;
+    font-size: 5px;
     margin:20px 20px ;
 }
 .marqee{
@@ -265,7 +265,6 @@ nav{
 .page3{
     height: 100%;
     width: 100%;
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,16 +305,16 @@ nav{
     z-index: 2;
 
 }
-.b2{
+/* .b2{
     margin-left: 170px;
     height: 50%;
     width: 60%;
-    /* background-color: blueviolet; */
+    /* background-color: blueviolet; 
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
+} */
 .c1{
     height: 90%;
     width: 30%;
