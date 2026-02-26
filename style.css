@@ -39,8 +39,8 @@ nav{
     align-items: center;
     gap: 30px;
 }
-.menu p{
-    font-size: 23px;
+.menu h4{
+    font-size: 18px;
 }
 .icons{
     height: 100%;
@@ -183,7 +183,7 @@ nav{
     bottom: 0;
 }
 .overlay1 p{
-    font-size: 2px;
+    font-size: 10px;
 }
 .marqee{
     height: 100%;
