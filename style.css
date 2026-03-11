@@ -923,7 +923,8 @@ section.big-cards:has(.cards .card:nth-child(3):hover) .background-images > img:
     justify-content: center;
     position: relative;
     border: solid 1px #12271D;
-    transition: all ease 0.13s;
+    transition: all ease 23s;
+    overflow: hidden;
 }
 .photocard h1{
     font-weight: 400;
@@ -932,10 +933,10 @@ section.big-cards:has(.cards .card:nth-child(3):hover) .background-images > img:
     border: none;
 }
 .over-photo{
-    height: 100%;
+    height: 100%;  
     width: 100%;
     border-radius: 110px;
-   
+   transition: all ease 10s;
     position: absolute;
 }
 .over-photo img{
@@ -944,6 +945,8 @@ section.big-cards:has(.cards .card:nth-child(3):hover) .background-images > img:
     object-fit: cover;
      border-radius: 90px;
      opacity: 0;
+     transform: scale(1.2);
+     /* transition: all ease 23s; */
 }
 .over-photo h1{
     position: absolute;
@@ -957,6 +960,7 @@ section.big-cards:has(.cards .card:nth-child(3):hover) .background-images > img:
 }
 .photocard:hover .over-photo img{
     opacity: 1;
+    transform: scale(1);
 }
 .photocard:hover{
     border: none;
